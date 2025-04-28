@@ -11,6 +11,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.paper-spacing {
+				margin-bottom: 1em;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -33,7 +38,7 @@
 							<article id="home" class="panel intro">
 								<header>
 									<h1>Lucy Vost</h1>
-									<p>PhD student at Oxford University studying machine learning for drug design</p>
+									<p>PhD student at Oxford University studying machine learning for structural biology and drug design</p>
 								</header>
 								<a href="#work" class="jumplink pic">
 									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
@@ -46,10 +51,12 @@
 						<!-- Work -->
 							<article id="work" class="panel">
 								<header>
-									<h2>Research</h2>
+									<h2>About me</h2>
 								</header>
 								<p>
-									Fragment-based drug discovery consists of developing compounds for a target beginning from fragments that are known to weakly bind to it. When elaborating on a fragment in such campaigns, information about known ligands and the protein pocket can both be leveraged to maximise the binding ability of the end result. However, using information about known ligands has been demonstrated to bias the drug design process towards compounds similar to those already in use. Working within the Oxford Protein Informatics Group (OPIG) and in collaboration with IBM Research, I am investigating ways to perform fragment elaboration using exclusively from the protein pocket.
+									Hello there! I’m Lucy, a final-year PhD student working in the Oxford Protein Informatics Group at the intersection of machine learning, drug discovery, and structural biology. My background is in theoretical physics, but these days I’m focused on building models that help design molecules and understand biological structures.
+
+									Lately, I've been working on attention-based models for fragment growing, diffusion models that generate more plausible molecules, and using AlphaFold to speed up and improve cryo-EM model building. I'm generally excited about using machine learning to tackle real-world molecular challenges — from designing better drugs to piecing together complex biological systems.
 								</p>
 
 
@@ -57,15 +64,18 @@
                                                                         <h2>Papers</h2>
                                                                 </header>
                                                                 <p>
-									<tr id="Scantlebury2022" class="bibtex-entry bibtex-natbib">
-									<td class="bibtex-citation"><span class="bibtex-article"><span class="bibtex-author">Scantlebury, J., Vost, L., Carbery, A., Hadfield, T.E., Turnbull, O.M., Brown, N., Chenthamarakshan, V., Das, P., Grosjean, H., Delft, F.v. &amp; Deane, C.M.</span> (<span class="bibtex-year">Rxiv</span>) <span class="bibtex-title"><a href="https://www.biorxiv.org/content/early/2022/10/31/2022.10.28.511712">PointVS: A Machine Learning Scoring Function that Identifies Important Binding Interactions</a></span>  <span class="bibtex-jname">bioRxiv</span></span></td>
-									</tr>
+                                                                    <table>
+                                                                        <tr id="Scantlebury2023" class="bibtex-entry bibtex-natbib paper-spacing">
+                                                                            <td class="bibtex-citation"><span class="bibtex-article"><span class="bibtex-author">Scantlebury, J., Vost, L., Carbery, A., Hadfield, T.E., Turnbull, O.M., Brown, N., Chenthamarakshan, V., Das, P., Grosjean, H., Delft, F.v. &amp; Deane, C.M.</span> (<span class="bibtex-year">2023</span>) <span class="bibtex-title"><a href="https://doi.org/10.1021/acs.jcim.3c00322">A Small Step Toward Generalizability: Training a Machine Learning Scoring Function for Structure-Based Virtual Screening</a></span> <span class="bibtex-jname">Journal of Chemical Information and Modeling</span>, 63(10), 2960-2974</span></td>
+                                                                        </tr>
+                                                                        <tr style="height: 1.5em"></tr>
+                                                                        <tr id="Vost2025" class="bibtex-entry bibtex-natbib">
+                                                                            <td class="bibtex-citation"><span class="bibtex-article"><span class="bibtex-author">Vost, L., Chenthamarakshan, V., Das, P. &amp; Deane, C.M.</span> (<span class="bibtex-year">2025</span>) <span class="bibtex-title"><a href="https://doi.org/10.1039/D4DD00331D">Improving Structural Plausibility in Diffusion-Based 3D Molecule Generation via Property-Conditioned Training with Distorted Molecules</a></span> <span class="bibtex-jname">Digital Discovery</span></span></td>
+                                                                        </tr>
+                                                                    </table>
                                                                 </p>
                                                                 <header>
-                                                                        <h2>Blog Posts</h2>
-                                                                </header>
-                                                                <p>
-									<rssapp-feed id="eoCp8haesChhF8bj"></rssapp-feed><script src="https://widget.rss.app/v1/feed.js" type="text/javascript" async></script>
+                                                        
 								</p>
 	
 							</article>
